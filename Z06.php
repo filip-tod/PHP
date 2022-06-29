@@ -48,7 +48,7 @@
 
 
     <!-- JavaScript -->
-    <?php require_once 'js.php'; ?>
+    <?php require_once 'jsskripte.php'; ?>
 </body>
 
 </html>
