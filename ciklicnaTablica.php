@@ -1,3 +1,6 @@
+<?PHP
+
+?>
 <!doctype html>
 <html class="no-js" lang="en" dir="ltr">
   <head>
@@ -40,7 +43,7 @@
 
 
 <?php 
-error_reporting(E_ERROR | E_WARNING | E_PARSE);
+
             $rows=$_POST['a'];
             $columns=$_POST['b'];
 
