@@ -1,6 +1,6 @@
 <?PHP
-$ime = isset($_GET['ime']) ? $_GET['ime'] : '';
-$ime = isset($_GET['ime']) ? $_GET['ime'] : '';
+$ime = isset($_GET['a']) ? $_GET['b'] : '';
+$ime = isset($_GET['b']) ? $_GET['b'] : '';
 ?>
 <!doctype html>
 <html class="no-js" lang="en" dir="ltr">
@@ -66,7 +66,7 @@ $ime = isset($_GET['ime']) ? $_GET['ime'] : '';
                     } 
 
                 for ($i=$maxRow; $i >= $minRow ;$i--) 
-                { 
+                {
                     $matrica[$i][$minCol] = $ispis++;
                 }
                     $minCol++;
